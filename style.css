@@ -1,0 +1,462 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: black;
+    overflow: hidden;
+    width: 1125px;
+}
+
+#ticketContainer {
+    display: none;
+}
+
+#edit {
+    display: none;
+    flex-direction: column;
+    z-index: 1;
+    position: absolute;
+    top: 2300px;
+    color: white;
+    background: black;
+    width: 1000px;
+    font-size: 28px;
+    padding: 50px;
+}
+
+#edit>div {
+    display: flex;
+    align-items: center;
+}
+
+#edit div label {
+    margin: 2px 5px;
+}
+
+#edit input[type="text"] {
+    flex: 2;
+    width: 100%;
+    font-size: 28px;
+}
+
+#edit input[type="submit"] {
+    margin: 5px;
+    font-size: 28px;
+}
+
+#linkText {
+    text-align: center;
+    font-weight: 800;
+    font-family: Helvetica Neue;
+    color: white;
+    font-size: 48px;
+    margin: 20px;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 3px;
+    background: #2b8eff;
+}
+
+.scanItem {
+    display: none;
+}
+
+div#topOptions {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 49px;
+    margin-top: 42px;
+    color: white;
+    font-size: 50px;
+    font-family: Helvetica Neue;
+    font-weight: 500;
+    letter-spacing: 0.5;
+    z-index: 1;
+}
+
+div#circleOptions {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 959px;
+    margin-top: 0;
+    border: 5px solid white;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+div.miniCircle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    margin-top: 23px;
+}
+
+div#circleOptions div:nth-child(1) {
+    margin-left: 8px;
+}
+
+div#circleOptions div:nth-child(2) {
+    margin-left: 23px;
+}
+
+div#circleOptions div:nth-child(3) {
+    margin-left: 38px;
+}
+
+div#circleOptions select {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+}
+
+div#ticketContainer {
+    display: flex;
+    margin-left: 48px;
+}
+
+div.ticket {
+    margin-top: 187px;
+    width: 1023px;
+    height: 1140px;
+    border: 3px solid #151a1e;
+}
+
+div.ticket:not(:first-child) {
+    margin-left: 25px;
+}
+
+div.ticket.long {
+    height: 1506px;
+}
+
+div#ticketCutout {
+    margin-left: 399px;
+    margin-top: -172px;
+    width: 220px;
+    height: 220px;
+    background: black;
+    border: 3px solid #151a1e;
+    border-radius: 50%;
+}
+
+div#ticketCutoutOverlay {
+    margin-left: 395px;
+    margin-top: -277px;
+    width: 233px;
+    height: 220px;
+    background: black;
+}
+
+img#logo {
+    width: 345px;
+    margin-top: -74px;
+    margin-left: 40px;
+}
+
+img#banner {
+    width: 1029px;
+    height: 270px;
+    margin-left: -2px;
+    margin-top: 54px;
+    background: black;
+}
+
+img#scan {
+    position: absolute;
+    top: 1468px;
+    left: 446px;
+    width: 232px;
+}
+
+p#scanText {
+    position: absolute;
+    top: 1704px;
+    left: 358px;
+    color: #87858c;
+    font-size: 52px;
+    font-family: Arial;
+    letter-spacing: -0.7px;
+}
+
+div#dateTimeContainer {
+    margin-top: 33px;
+    margin-right: 44px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    letter-spacing: 1.7px;
+    white-space: nowrap;
+    text-align: right;
+}
+
+p#dateText {
+    font-size: 61px;
+    letter-spacing: 1px;
+}
+
+div#eventInfoContainer {
+    margin-top: 28px;
+    margin-left: 44px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    letter-spacing: 1.5px;
+}
+
+p#timeText {
+    font-size: 32px;
+}
+
+p#eventNameText {
+    font-size: 54px;
+    padding-top: 5px;
+    letter-spacing: 1.1px;
+    white-space: nowrap;
+}
+
+.header {
+    letter-spacing: 1px;
+    font-size: 28px;
+    font-family: Helvetica;
+    font-weight: 600;
+}
+
+div#headers {
+    margin-top: 64px;
+    margin-left: 44px;
+}
+
+div#headers div {
+    display: flex;
+}
+
+div#headers div:nth-child(2) {
+    margin-top: 117px;
+}
+
+p#middleHeader {
+    margin-left: 328px;
+}
+
+p#rightHeader {
+    margin-left: 325px;
+}
+
+div#ticketInfoContainer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 58px;
+    letter-spacing: 2px;
+    margin-top: -141px;
+    margin-left: 45px;
+}
+
+div#ticketInfoContainer div {
+    display: flex;
+}
+
+div#ticketInfoContainer div:first-child {
+    position: relative;
+}
+
+p#leftText {
+    width: 97px;
+    white-space: nowrap;
+}
+
+p#middleText {
+    width: 34px;
+    margin-left: 361px;
+}
+
+p#rightText {
+    margin-left: 361px;
+}
+
+p#bottomText {
+    margin-top: 77px;
+    letter-spacing: -1px;
+}
+
+#nfcIcon {
+    margin-top: 125px;
+    margin-left: 920px;
+    filter: invert(93%) sepia(7%) saturate(61%) hue-rotate(182deg) brightness(82%) contrast(87%);
+    width: 95px;
+}
+
+#qrIcon {
+    margin-top: 100px;
+    margin-left: 296px;
+}
+
+#pageCircles {
+    display: none;
+    margin-top: 38px;
+}
+
+.pageCircle {
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background: #505052;
+}
+
+.pageCircle.active {
+    background: #fefefe;
+}
+
+.pageCircle:not(:first-child) {
+    margin-left: 31px;
+}
+
+/* animation */
+
+#ticketContainer {
+    --n: 1;
+    display: flex;
+    align-items: center;
+    overflow-y: hidden;
+    width: 100%;
+    width: calc(var(--n)*100% - var(--n)*71px);
+    transform: translate(calc(var(--tx, 0px) + var(--i, 0)/var(--n)*-100%));
+
+    div {
+        width: 100%;
+        width: calc(100%/var(--n));
+        user-select: none;
+        pointer-events: none
+    }
+}
+
+.smooth {
+    transition: transform calc(var(--f, 1)*.5s) ease-out
+}
+
+/*************/
+
+#mainScreen {
+    margin-left: 48px;
+}
+
+#mainTopOptions {
+    display: flex;
+    margin-top: 165px;
+    margin-left: 7px;
+}
+
+#walletHeader {
+    color: white;
+    font-size: 91px;
+    font-family: Helvetica;
+    font-weight: 800;
+}
+
+.circle {
+    background: white;
+    width: 101px;
+    height: 101px;
+    border-radius: 50%;
+    margin-top: -11px;
+}
+
+#leftCircle {
+    margin-left: 514px;
+}
+
+#box {
+    width: 65px;
+    margin-left: 18px;
+    margin-top: 18px;
+}
+
+#rightCircle {
+    margin-left: 34px;
+}
+
+#plus {
+    width: 53px;
+    margin-left: 24px;
+    margin-top: 24px;
+}
+
+#appleCard {
+    margin-top: 70px;
+    width: 1032px;
+    height: 656px;
+}
+
+#background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: none;
+}
+
+#mainScreen div.ticket {
+    margin-top: 90px;
+    margin-left: 0px;
+}
+
+.moveUp {
+    animation: moveUp 0.5s ease-in-out;
+}
+
+@keyframes moveUp {
+    0% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(-895px);
+    }
+}
+
+.moveDown {
+    animation: moveDown 0.5s ease-in-out;
+}
+
+@keyframes moveDown {
+    0% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(895px);
+    }
+}
+
+.fadeOut {
+    animation: fadeOut 0.5s ease-in-out;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.fadeIn {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

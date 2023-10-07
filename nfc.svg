@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   aria-label="icon nfc"
+   role="img"
+   class="css-evon7w"
+   viewBox="0 0 4096 4096"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="nfc-payments-logo.svg"
+   width="4096"
+   height="4096"
+   inkscape:export-filename="C:\Users\suitedoalex\sites\nfc-payments-logo-0.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  <metadata
+     id="metadata12">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>NFC</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1600"
+     inkscape:window-height="837"
+     id="namedview8"
+     showgrid="false"
+     inkscape:zoom="0.081483008"
+     inkscape:cx="1307.766"
+     inkscape:cy="2354.9621"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6" />
+  <title
+     id="title2">NFC</title>
+  <path
+     d="m 916.78305,2478.4936 c 0,-36.3823 12.36998,-60.7584 49.66185,-121.335 62.2137,-109.1469 74.5837,-169.7233 74.5837,-303.2465 0,-133.3412 -12.37,-193.9177 -74.5837,-303.0647 -12.36998,-24.1942 -49.66185,-84.9526 -49.66185,-121.335 0,-72.7646 62.03184,-145.5292 136.61555,-145.5292 62.2138,0 111.8756,24.3763 161.7194,121.335 86.9537,133.3412 136.6156,291.0586 136.6156,460.7821 0,169.7233 -49.6619,339.6288 -136.6156,472.9699 -49.8438,72.7646 -99.5056,109.147 -161.7194,109.147 -74.58371,-24.1942 -136.61555,-96.959 -136.61555,-169.7236 z m 522.08615,266.6825 c 0,-36.3824 12.37,-60.5766 62.0318,-145.5294 99.5056,-181.9115 136.7975,-363.8231 136.7975,-557.7408 0,-181.9115 -37.2919,-363.8231 -136.7975,-545.7346 -49.6618,-84.9527 -62.0318,-121.335 -62.0318,-157.7173 0,-36.3823 49.6618,-121.1531 136.6156,-121.1531 87.1356,0 124.4274,36.3823 199.0112,181.9115 111.8756,206.1058 161.5375,400.2054 161.5375,642.6935 0,254.6762 -37.2919,436.5877 -173.9075,691.2639 -37.2919,84.7708 -87.1356,157.5354 -174.0893,157.5354 -87.1357,-12.1881 -149.1675,-72.7646 -149.1675,-145.5291 z m 559.3779,278.8703 c 0,-60.5765 37.2919,-109.147 74.5838,-181.9115 124.2456,-254.6762 186.4593,-521.3585 186.4593,-788.2227 0,-278.8704 -62.2137,-545.7347 -198.8293,-812.417 -49.8438,-96.9588 -62.2138,-145.5292 -62.2138,-181.9115 0,-48.3885 62.2138,-121.15315 149.1675,-121.15315 99.5056,0 124.2457,72.76465 186.4593,169.72355 124.2456,242.488 236.3031,569.9288 236.3031,945.94 0,278.8704 -62.2136,569.9289 -211.3812,897.1877 -62.2137,145.5293 -124.4275,218.2939 -199.0112,218.2939 -99.3237,0 -161.5374,-72.7646 -161.5375,-145.5293 z m 547.0081,279.0523 c 0,-48.5704 24.9218,-97.1408 62.2137,-157.7173 186.4594,-339.6289 273.4131,-679.0758 273.4131,-1103.4755 0,-400.2053 -74.5838,-715.458 -261.0431,-1091.46925 -24.9218,-60.5765 -62.2138,-121.153 -62.2138,-169.7234 0,-72.7646 62.2138,-133.3412 136.7976,-133.3412 86.9537,0 124.2455,48.3885 186.4594,181.9116 211.3812,400.20535 298.3349,788.22265 298.3349,1212.62225 0,436.5877 -111.8756,836.7931 -310.7049,1224.8105 -37.2919,84.7707 -74.5838,181.9115 -186.4594,181.9115 -62.2137,0 -136.7974,-60.7585 -136.7975,-145.5292 z"
+     id="path4"
+     inkscape:export-filename="C:\Users\suitedoalex\sites\nfc-payments-logo-6.png"
+     inkscape:export-xdpi="2.1216087"
+     inkscape:export-ydpi="2.1216087"
+     inkscape:connector-curvature="0"
+     style="fill:currentColor;fill-rule:evenodd;stroke-width:181.9115448" />
+</svg>

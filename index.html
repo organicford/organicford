@@ -1,0 +1,180 @@
+<head>
+    <title>Wallet</title>
+    <meta name="viewport" content="width=1125px, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="theme-color" content="#000000">
+    <link rel="icon" href="./icon.jpg">
+    <link rel="apple-touch-icon" href="./icon.jpg">
+    <link rel="stylesheet" type="text/css" media="screen" href="./style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"
+        integrity="sha512-E8QSvWZ0eCLGk4km3hxSsNmGWbLtSCSUcewDQPQWZF6pEU8GlT8a5fF32wOl1i8ftdMhssTrF/OhyGWwonTcXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="./script.js" defer></script>
+</head>
+
+<body>
+    <form id="edit">
+        <div>
+            <label for="key">Key</label>
+            <input type="text" id="key" placeholder="Key" spellcheck="false">
+        </div>
+        <div>
+            <label for="numTickets">Num Tickets</label>
+            <input type="text" id="numTickets" placeholder="Num Tickets" spellcheck="false">
+        </div>
+        <div>
+            <label for="banner">Banner</label>
+            <input type="text" id="banner" placeholder="Banner" spellcheck="false">
+        </div>
+        <div>
+            <label for="logo">Logo</label>
+            <input type="text" id="logo" placeholder="Logo" spellcheck="false">
+        </div>
+        <div>
+            <label for="date">Date</label>
+            <input type="text" id="date" placeholder="Date" spellcheck="false">
+        </div>
+        <div>
+            <label for="time">Time</label>
+            <input type="text" id="time" placeholder="Time" spellcheck="false">
+        </div>
+        <div>
+            <label for="eventLoc">Event Location</label>
+            <input type="text" id="eventLoc" placeholder="Event Location" spellcheck="false">
+        </div>
+        <div>
+            <label for="eventName">Event Name</label>
+            <input type="text" id="eventName" placeholder="Event Name" spellcheck="false">
+        </div>
+        <div>
+            <label for="leftHeader">Left Header</label>
+            <input type="text" id="leftHeader" placeholder="Left Header" spellcheck="false">
+        </div>
+        <div>
+            <label for="leftText">Left Text</label>
+            <input type="text" id="leftText" placeholder="Left Text" spellcheck="false">
+        </div>
+        <div>
+            <label for="middleHeader">Middle Header</label>
+            <input type="text" id="middleHeader" placeholder="Middle Header" spellcheck="false">
+        </div>
+        <div>
+            <label for="middleText">Middle Text</label>
+            <input type="text" id="middleText" placeholder="Middle Text" spellcheck="false">
+        </div>
+        <div>
+            <label for="rightHeader">Right Header</label>
+            <input type="text" id="rightHeader" placeholder="Right Header" spellcheck="false">
+        </div>
+        <div>
+            <label for="rightText">Right Text</label>
+            <input type="text" id="rightText" placeholder="Right Text" spellcheck="false">
+        </div>
+        <div>
+            <label for="bottomHeader">Bottom Header</label>
+            <input type="text" id="bottomHeader" placeholder="Bottom Header" spellcheck="false">
+        </div>
+        <div>
+            <label for="bottomText">Bottom Text</label>
+            <input type="text" id="bottomText" placeholder="Bottom Text" spellcheck="false">
+        </div>
+        <div>
+            <label class="radioLabel" for="scanType">Scan Type</label>
+            <input type="radio" id="nfc" name="scanType" value="nfc">
+            <label class="radioLabel" for="nfc">NFC</label>
+            <input type="radio" id="qr" name="scanType" value="qr">
+            <label class="radioLabel" for="qr">QR</label>
+            <input type="radio" id="none" name="scanType" value="none">
+            <label class="radioLabel" for="none">None</label>
+        </div>
+        <div>
+            <label for="headerColor">Header Color</label>
+            <input type="text" id="headerColor" placeholder="Header Color" spellcheck="false">
+        </div>
+        <div>
+            <label for="textColor">Text Color</label>
+            <input type="text" id="textColor" placeholder="Text Color" spellcheck="false">
+        </div>
+        <div>
+            <label for="ticketColor">Ticket Color</label>
+            <input type="text" id="ticketColor" placeholder="Ticket Color" spellcheck="false">
+        </div>
+        <a href="" id="linkText">Submit</a>
+    </form>
+    <div id="ticketScreen" style="display: none;">
+        <div id="topOptions">
+            <p id="doneText">Done</p>
+            <div id="circleOptions">
+                <div class="miniCircle"></div>
+                <div class="miniCircle"></div>
+                <div class="miniCircle"></div>
+                <select>
+                    <optgroup>
+                        <option value="details">Pass Details</option>
+                        <option value="notifications">Notifications</option>
+                    </optgroup>
+                    <optgroup>
+                        <option value="remove">Remove Pass</option>
+                    </optgroup>
+                </select>
+            </div>
+        </div>
+        <div id="ticketContainer">
+            <div class="ticket">
+                <div id="ticketCutout"></div>
+                <div id="ticketCutoutOverlay"></div>
+                <div class="text" id="dateTimeContainer">
+                    <p class="header" id="timeText"></p>
+                    <p id="dateText"></p>
+                </div>
+                <img id="logo" src="">
+                <img id="banner" src="">
+                <div class="text" id="eventInfoContainer">
+                    <p class="header" id="eventLocText"></p>
+                    <p id="eventNameText"></p>
+                </div>
+                <div class="header" id="headers">
+                    <div>
+                        <p id="leftHeader"></p>
+                        <p id="middleHeader"></p>
+                        <p id="rightHeader"></p>
+                    </div>
+                    <div>
+                        <p id="bottomHeader"></p>
+                    </div>
+                </div>
+                <div class="text" id="ticketInfoContainer">
+                    <div>
+                        <p id="leftText"></p>
+                        <p id="middleText"></p>
+                        <p id="rightText"></p>
+                    </div>
+                    <div>
+                        <p id="bottomText"></p>
+                    </div>
+                </div>
+                <img id="nfcIcon" src="./nfc.svg">
+                <img id="qrIcon" src="">
+            </div>
+        </div>
+        <img class="scanItem" id="scan" src="">
+        <p class="scanItem" id="scanText">Hold Near Reader</p>
+        <div id="pageCircles">
+            <div class="pageCircle"></div>
+        </div>
+    </div>
+    <div id="mainScreen">
+        <div id="mainTopOptions">
+            <p id="walletHeader">Wallet</p>
+            <div id="leftCircle" class="circle">
+                <img src="box.svg" id="box">
+            </div>
+            <div id="rightCircle" class="circle">
+                <img src="plus.svg" id="plus">
+            </div>
+        </div>
+        <img src="applecard.png" id="appleCard">
+        <img src="background.png" id="background">
+    </div>
+</body>
