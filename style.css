@@ -212,6 +212,7 @@ div#eventInfoContainer {
 
 p#timeText {
     font-size: 32px;
+    margin-right: 220px;
 }
 
 p#eventNameText {
@@ -242,11 +243,15 @@ div#headers div:nth-child(2) {
 }
 
 p#middleHeader {
-    margin-left: 328px;
+    margin-left: 400px;
 }
 
 p#rightHeader {
-    margin-left: 325px;
+    margin-left: 323px;
+}
+
+p#bottomRightHeader {
+    margin-left: 342px;
 }
 
 div#ticketInfoContainer {
@@ -284,10 +289,15 @@ p#bottomText {
     letter-spacing: -1px;
 }
 
+p#bottomRightText {
+    margin-top: 77px;
+    margin-left: 220px;
+}
+
 #nfcIcon {
-    margin-top: 125px;
+    margin-top: 95px;
     margin-left: 920px;
-    filter: invert(93%) sepia(7%) saturate(61%) hue-rotate(182deg) brightness(82%) contrast(87%);
+    filter: invert(93%) sepia(7%) saturate(61%) hue-rotate(182deg) brightness(100%) contrast(87%);
     width: 95px;
 }
 
