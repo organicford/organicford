@@ -72,19 +72,19 @@
             <input type="text" id="rightText" placeholder="Right Text" spellcheck="false">
         </div>
         <div>
-            <label for="bottomHeader">Bottom Header</label>
-            <input type="text" id="bottomHeader" placeholder="Bottom Header" spellcheck="false">
+            <label for="bottomLeftHeader">Bottom Left Header</label>
+            <input type="text" id="bottomLeftHeader" placeholder="Bottom Left Header" spellcheck="false">
         </div>
         <div>
             <label for="bottomRightHeader">Bottom Right Header</label>
             <input type="text" id="bottomRightHeader" placeholder="Bottom Right Header" spellcheck="false">
         </div>
         <div>
-            <label for="bottomText">Bottom Text</label>
-            <input type="text" id="bottomText" placeholder="Bottom Text" spellcheck="false">
+            <label for="bottomLeftText">Bottom Left Text</label>
+            <input type="text" id="bottomLeftText" placeholder="Bottom Left Text" spellcheck="false">
         </div>
         <div>
-            <label for="bottomText">Bottom Right Text</label>
+            <label for="bottomLeftText">Bottom Right Text</label>
             <input type="text" id="bottomRightText" placeholder="Bottom Right Text" spellcheck="false">
         </div>
         <div>
@@ -110,7 +110,8 @@
         </div>
         <a href="" id="linkText">Submit</a>
     </form>
-    <div id="ticketScreen" style="display: none;">
+    <!-- <img src="template.PNG" style="position: absolute; width: 1125px; top: -153px;"> -->
+    <div id="ticketScreen" style="display: none; opacity: 100%;">
         <div id="topOptions">
             <p id="doneText">Done</p>
             <div id="circleOptions">
@@ -144,13 +145,13 @@
                 </div>
                 <div class="header" id="headers">
                     <div>
-                        <p id="leftHeader"></p>
-                        <p id="middleHeader"></p>
-                        <p id="rightHeader"></p>
+                        <p class="header" id="leftHeader"></p>
+                        <p class="header" id="middleHeader"></p>
+                        <p class="header" id="rightHeader"></p>
                     </div>
                     <div>
-                        <p id="bottomHeader"></p>
-                        <p id="bottomRightHeader"></p>
+                        <p class="header" id="bottomLeftHeader"></p>
+                        <p class="header" id="bottomRightHeader"></p>
                     </div>
                 </div>
                 <div class="text" id="ticketInfoContainer">
@@ -160,7 +161,7 @@
                         <p id="rightText"></p>
                     </div>
                     <div>
-                        <p id="bottomText"></p>
+                        <p id="bottomLeftText"></p>
                         <p id="bottomRightText"></p>
                     </div>
                 </div>
