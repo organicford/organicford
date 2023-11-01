@@ -1,0 +1,18 @@
+body {
+    background: black;
+    color: white;
+}
+
+#container {
+    margin: 20px;
+}
+
+i.fa {
+    color: grey;
+    cursor: pointer;
+    padding: 0 3px 0 3px;
+}
+
+input {
+    width: 100px;
+}
