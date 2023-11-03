@@ -1,7 +1,6 @@
 <head>
     <meta charset="utf-8" />
     <title>Database</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="style.css" />
     <script src="https://use.fontawesome.com/ec95df541b.js"></script>
   </head>
@@ -10,12 +9,26 @@
     <div id="container">
         <form id="form">
             <div id="section">
-                <input type="text" placeholder="Section" />
+                <input type="text" name="section" placeholder="Section" />
                 <span>Retrieving...</span>
             </div>
             <div id="row">
-                <input type="text" placeholder="Row" />
+                <input type="text" name="row" placeholder="Row" />
                 <span>Retrieving...</span>
+            </div>
+            <div id="mode">
+                <div id="run">
+                    <span>RUN</span>
+                    <input type="radio" name="mode" value="RUN" checked>
+                </div>
+                <div id="standby">
+                    <span>STANDBY</span>
+                    <input type="radio" name="mode" value="STANDBY">
+                </div>
+                <div id="off">
+                    <span>OFF</span>
+                    <input type="radio" name="mode" value="OFF">
+                </div>
             </div>
             <button type="submit">Submit</button>
         </form>
