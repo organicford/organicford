@@ -7,12 +7,6 @@ body {
     margin: 20px;
 }
 
-i.fa {
-    color: grey;
-    cursor: pointer;
-    padding: 0 3px 0 3px;
-}
-
-input {
+input[type="text"] {
     width: 100px;
 }
