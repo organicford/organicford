@@ -29,9 +29,9 @@ function setTicket(database) {
             Object.values(snapshot.val()).reverse().forEach(item => {
                 inputs.section.value = item.section;
                 inputs.row.value = item.row;
-                if (inputs[item.mode]) {
-                    inputs[item.mode].checked = true;
-                }
+                inputs.run.checked = item.mode === 'RUN';
+                inputs.standby.checked = item.mode === 'STANDBY';
+                inputs.off.checked = item.mode === 'OFF';
 
                 shownTexts.section.innerText = `${item.section}`
                 shownTexts.row.innerText = `${item.row}`;
