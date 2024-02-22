@@ -146,7 +146,7 @@ div.ticket.long {
 div#ticketCutout {
     margin-left: 406px;
     margin-top: -174px;
-    width: 211px;
+    width: 211px !important;
     height: 211px;
     background: black;
     border: 3px solid #151a1e;
@@ -346,7 +346,7 @@ p#scanText {
     align-items: center;
     overflow-y: hidden;
     width: 100%;
-    width: calc(var(--n)*100% - var(--n)*71px);
+    width: calc(var(--n)*100% - var(--n)*80px);
     transform: translate(calc(var(--tx, 0px) + var(--i, 0)/var(--n)*-100%));
 
     div {
